@@ -31,9 +31,6 @@ const InputBar = () => {
           }}
         />
       </Form.Group>
-          {countries && countries.map((country) => {
-              console.log(country);
-      })}
       <Recipies />
     </>
   );
